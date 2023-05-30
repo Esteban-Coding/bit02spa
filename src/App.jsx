@@ -6,15 +6,17 @@ import HeaderStyle from "./styles/Header.module.css"
 function App() {
   return (  
       <BrowserRouter>
-      <header>
-        <Link to="/">
-          <h1 className={HeaderStyle.emperia}>EMPERIA</h1>
-        </Link>
+      <header className={HeaderStyle.menu}>
+          <h1 className={HeaderStyle.emperia}>
+            <Link to="/bit02spa">
+              EMPERIA
+            </Link>
+          </h1>
       </header>
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route exact path="/movies/:movieId" element={<MovieDetails/>} />
+          <Route path="/bit02spa" element={<Home />} />
+          <Route exact path="/bit02spa/movies/:movieId" element={<MovieDetails/>} />
         </Routes>
       </main>
       </BrowserRouter>

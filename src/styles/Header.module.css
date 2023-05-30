@@ -1,6 +1,14 @@
-.emperia {
+.menu {
+    display: flex;
+}
+
+.menu .emperia {
+    margin: 0px;
+    padding-left: 20px;
     text-align: left;
-    padding-left: 2%;
+}
+
+.menu .emperia a {
     font-size: 2rem;
     color: #00acee;
 }
