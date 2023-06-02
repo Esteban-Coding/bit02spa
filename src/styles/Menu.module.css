@@ -1,0 +1,45 @@
+.menu {
+    margin: 20px 80px 20px 80px;
+    display: fixed;
+}
+
+.menu .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .container h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.menu .container button {
+    border: 0;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 30px;
+    color: #fff;
+    background-color: #00acee;
+}
+
+.menu .container button {
+    height: 35px;
+    padding: 0 20px 0 20px;
+}
+
+.menu .container button:hover {
+    transition: 0.2s;
+    background-color: #007aaa;
+}
+
+.emperia a {
+    font-size: 2rem;
+    color: #00acee;
+}
+
+@media screen and (max-width: 856px) {
+    .menu {
+        margin: 20px 20px 0 20px;
+    }
+}
