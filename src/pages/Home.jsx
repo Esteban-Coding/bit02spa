@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import HomeStyle from "../styles/Home.module.css";
 
-export function Home() {
+export const Home = () => {
     return (
       <>
         <div className={HomeStyle.bgd}>

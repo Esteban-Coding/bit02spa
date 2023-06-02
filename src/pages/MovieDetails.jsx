@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { get } from "../utils/httpClient";
 import DetailStyle from "../styles/MovieDetails.module.css";
 
-export function MovieDetails() {
+export const MovieDetails = () => {
     const { movieId } = useParams();
     const [movie, setMovie] = useState(null);
 

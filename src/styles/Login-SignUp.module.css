@@ -76,3 +76,20 @@
     color: #00acee;
     text-decoration: underline;
 }
+
+.login .alert {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    background-color: #510600;
+    border-width: medium;
+    border-color: #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.login .alert p {
+    margin: 0;
+}

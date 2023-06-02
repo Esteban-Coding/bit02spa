@@ -1,5 +1,5 @@
 import { MoviesList } from "../components/MoviesList";
 
-export function Browser() {
+export const Browser = () => {
     return <MoviesList />
 }
